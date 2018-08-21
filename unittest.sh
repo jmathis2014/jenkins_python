@@ -24,7 +24,7 @@ UNITTEST_MODULE='unit.test_mymath'
 #--------------------------------------#
 
 # check if user is ROOT #
-function empty() {
+function empty(){
 
   echo 'hello'
 
