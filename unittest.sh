@@ -40,6 +40,8 @@ function empty(){
 # start uniit testing #
 python -B -m $UNITTEST_MODULE -v
 
+# pep8 report #
+pycodestyle unit/test_mymath.py --format=pylint
 
 #--#
 
