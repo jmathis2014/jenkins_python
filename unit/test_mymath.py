@@ -46,5 +46,5 @@ class testMyMath(unittest.TestCase):
 
 if __name__ == '__main__':
     import xmlrunner
-    unittest.main(testRunner=xmlrunner.XMLTestRunner(output='./reports'))
+    unittest.main(testRunner=xmlrunner.XMLTestRunner(output='./reports/junit'))
 
