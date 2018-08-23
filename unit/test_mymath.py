@@ -33,8 +33,8 @@ from mymath import mymath
 # C L A S S E S #
 #-----------------------------------------------------------------------------#
 
-class testMyMath(unittest.TestCase):
 
+class testMyMath(unittest.TestCase):
 
     def test_add(self):
         my_math = mymath.mymath()
@@ -46,7 +46,6 @@ class testMyMath(unittest.TestCase):
         self.assertEqual(my_math.subtract(2, 2), 0)
 
 if __name__ == '__main__':
-
 
     import xmlrunner
     unittest.main(testRunner=xmlrunner.XMLTestRunner(output='./reports/junit'))
