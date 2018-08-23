@@ -41,8 +41,7 @@ function empty(){
 python -B -m $UNITTEST_MODULE -v
 
 # pep8 report #
-#pep8 --show-source --show-pep8 unit/test_mymath.py > reports/pep8/pycodestyle.log
-pycodestyle --show-source --show-pep8 unit/test_mymath.py > pycodestyle.log
+pycodestyle --show-source --show-pep8 unit/test_mymath.py > pycodestyle.log | true
 
 #--#
 
