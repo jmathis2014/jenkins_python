@@ -45,6 +45,7 @@ class testMyMath(unittest.TestCase):
         my_math = mymath.mymath()
         self.assertEqual(my_math.subtract(2, 2), 0)
 
+
 if __name__ == '__main__':
 
     import xmlrunner
